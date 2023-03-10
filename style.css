@@ -9,7 +9,7 @@ h2{
 p{
     color: dimgrey;
 }
-.name-highlight{
+.orange-highlight{
     color:orange;
 }
 .half-width{
@@ -38,4 +38,29 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 600px;
+    background-color: white;
+}
+.exprience{
+    background-image: url(images/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
